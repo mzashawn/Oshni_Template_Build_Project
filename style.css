@@ -1,0 +1,169 @@
+:root {
+  --menu-background: #dadada;
+  --appointment-background: #fff;
+  --banner-backgroundr: #dadada;
+  --bio-backgroundr: #dadada;
+  --experience-backgroundr: #dadada;
+  --achievement-backgroundr: #f6f6f6;
+  --chamber-details-backgroundr: #dadada;
+
+  --heading-font-family: "Montserrat", sans-serif;
+  --paragraph-font-family: "Poppins", sans-serif;
+  --body-font-size: 14px;
+}
+
+/* Global setup */
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  /* font-family: 'Montserrat', sans-serif; */
+  /* font-family: var(--bs-body-font-family); */
+
+  font-family: var(--paragraph-font-family);
+  font-size: var(--body-font-size);
+}
+/* Nav bar style */
+.nav_style {
+  font-weight: 200;
+  font-size: 12px;
+}
+
+.paragraph-1 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+
+  color: #424042;
+}
+
+.textneurologist {
+  font-family: var(--paragraph-font-family);
+  color: #424042;
+  font-size: 42px;
+}
+
+.mobileicon {
+  width: 80px;
+  height: 100px;
+  margin-top: 16px;
+}
+
+.headerbanner {
+  background-color: var(--banner-backgroundr);
+}
+
+.bannerimage {
+  margin-left: 200px;
+}
+
+#textInt {
+  margin-top: 200px;
+}
+
+.textDoctor {
+  font-family: "Montserrat";
+  color: #e30613;
+  font-size: 46px;
+}
+
+.textDoctorDescription {
+  font-family: "Poppins-Regular";
+  color: #706f6f;
+  font-size: 16px;
+}
+
+.bio-1 {
+  background-color: #f1f4f4;
+}
+
+.bio-2 {
+  background-color: #8f9191;
+}
+
+.title {
+  color: #636362;
+  font-size: 40 pt;
+  font-family: "Poppins-Regular";
+}
+
+.qualicification {
+  font-size: 20 px;
+  color: #636362;
+  font-family: var(--body-font-family);
+}
+
+#exp_content {
+  font-size: 40 px;
+  color: #636362;
+  font-family: "Poppins-Regular ";
+  text-align: center;
+  margin-top: 60px;
+}
+
+#exp_content h1,
+h4,
+p {
+  text-align: center;
+  font-size: 40 px;
+  font-family: "Montserrat ";
+  color: #636362;
+}
+
+.vl {
+  border-left: 6px solid red;
+  height: 200px;
+  margin-left: 480px;
+  margin-top: -140px;
+}
+
+.vline {
+  border-bottom: 4px solid red;
+  width: 200px;
+  margin-left: 120px;
+  /* margin-top: 10px; */
+}
+.acheivement {
+  background-color: #f6f6f6;
+}
+/* .chamberContainer {
+  background-color: #ffffff;
+} */
+
+.chamberUnderline {
+  border-bottom: 4px solid red;
+  width: 160px;
+  margin-left: -180px;
+}
+.chamberWrapper h1 {
+  font-size: 20px;
+  color: #636362;
+  font-family: var(--heading-font-family);
+}
+
+.hospital-info h1,
+h2,
+h5 {
+  font-family: var(--heading-font-family);
+  font-size: 20px;
+  color: #636362;
+}
+
+/* Sample @media Query */
+
+/* @media screen and (max-width: 600px) {
+  body {
+    background-color: olive;
+    color: white;
+  }
+
+  h4,
+  p {
+    text-align: center;
+    font-size: 40 px;
+    font-family: "Montserrat ";
+    color: blue;
+  }
+} */
